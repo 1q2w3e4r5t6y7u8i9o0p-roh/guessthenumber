@@ -50,7 +50,7 @@ while chances < 5:
 
         # control statement "break" 
 
-        print("Congratulation YOU WON!!!") 
+        print("👍👍Congratulation YOU WON!!!") 
 
         break
 
@@ -64,7 +64,7 @@ while chances < 5:
 
     elif guess < number: 
 
-        print(f"Your guess was too low: Guess a number higher than {guess}") 
+        print(f"↓Your guess was too low: Guess a number higher than {guess}↓") 
 
   
 
@@ -76,7 +76,7 @@ while chances < 5:
 
     else: 
 
-        print(f"UYour guess was too high: Guess a number lower than {guess}") 
+        print(f"↑Your guess was too high: Guess a number lower than {guess}↑") 
 
           
 
