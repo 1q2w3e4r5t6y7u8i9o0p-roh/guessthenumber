@@ -64,7 +64,7 @@ while chances < 5:
 
     elif guess < number: 
 
-        print("Your guess was too low: Guess a number higher than", guess) 
+        print(f"Your guess was too low: Guess a number higher than {guess}") 
 
   
 
@@ -76,7 +76,7 @@ while chances < 5:
 
     else: 
 
-        print("Your guess was too high: Guess a number lower than", guess) 
+        print(f"UYour guess was too high: Guess a number lower than {guess}") 
 
           
 
@@ -92,4 +92,4 @@ while chances < 5:
 
 if chances >=5: 
 
-    print("YOU LOSE!!! The number is", number) 
+    print(f"👎👎\nYOU LOSE!!! The number is {number}") 
